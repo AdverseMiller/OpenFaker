@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="OpenFaker"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OpenFaker">
+        <receiver android:name="com.android1500.androidfaker.data.logger.LoggerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android1500.androidfaker.ACTION_REQUEST_BINDER" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

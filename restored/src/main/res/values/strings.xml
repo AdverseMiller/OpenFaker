@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Recovered from the original APK's default string resources. -->
+    <string name="okay">OK</string>
+    <string name="apps">Apps</string>
+    <string name="force_stop">Force stop</string>
+    <string name="clear_data">Clear Data</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="disable_data_profile">Disable data profile</string>
+    <string name="enable_data_profile">Enable data profile</string>
+</resources>
